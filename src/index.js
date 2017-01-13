@@ -1,15 +1,13 @@
 import React from 'react'
-import {Provider} from 'react-redux'
-import App from './App'
+import App from './AppProvider'
+import configureStore from './configureStore'
+
+const store = configureStore()
 
 const AppProvider = (props) => {
+  console.log(props)
   return (
-    <App/>
+    <App store={props.store || store}/>
   )
-//   return (
-//     <Provider store={props.store}>
-//       <App/>
-//     </Provider>
-//   )
 }
 export default AppProvider

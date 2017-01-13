@@ -96,7 +96,7 @@
           _react2.default.createElement(
             'p',
             { className: 'App-intro' },
-            'I\'m the child Component. You can do what you want with me!'
+            'I\'m the child Component. Click me to invoke a store action!'
           )
         );
       }
