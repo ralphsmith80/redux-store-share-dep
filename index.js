@@ -1,4 +1,4 @@
 // import AppProvider from './src/AppProvider'
-module.exports = () => {
+module.exports = function() {
   console.log("I'm not insane!")
 }
