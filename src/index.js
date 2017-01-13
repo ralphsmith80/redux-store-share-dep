@@ -10,4 +10,6 @@
 //   <AppProvider store={store}/>,
 //   document.getElementById('root')
 // )
-export {AppProvider} from './AppProvider';
+
+// export {AppProvider} from './AppProvider';
+export default './src/AppProvider'

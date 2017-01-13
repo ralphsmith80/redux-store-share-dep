@@ -1,1 +1,1 @@
-export {AppProvider} from './src/AppProvider'
+export default './src/AppProvider'
