@@ -1,1 +1,2 @@
-export default './src/AppProvider'
+import AppProvider from './src/AppProvider'
+module.exports = AppProvider
