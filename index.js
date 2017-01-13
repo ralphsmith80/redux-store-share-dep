@@ -1,4 +1,1 @@
-// import AppProvider from './src/AppProvider'
-module.exports = function() {
-  console.log("I'm not insane!")
-}
+module.exports = require('./dist/index');

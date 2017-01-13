@@ -1,15 +1,15 @@
-// import React from 'react'
-// import ReactDOM from 'react-dom'
-// import configureStore from './configureStore'
-// import AppProvider from './AppProvider'
-// import './index.css'
+import React from 'react'
+import {Provider} from 'react-redux'
+import App from './App'
 
-// const store = configureStore()
-
-// ReactDOM.render(
-//   <AppProvider store={store}/>,
-//   document.getElementById('root')
-// )
-
-// export {AppProvider} from './AppProvider';
-export default './src/AppProvider'
+const AppProvider = (props) => {
+  return (
+    <App/>
+  )
+//   return (
+//     <Provider store={props.store}>
+//       <App/>
+//     </Provider>
+//   )
+}
+export default AppProvider
